@@ -1,5 +1,3 @@
-""" addons.xml generator """
-
 import re
 import os
 import md5
