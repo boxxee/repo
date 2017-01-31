@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
 <addon id="repository.boxxee" version="1.0.0" name="Boxxee repository" provider-name="Boxxee">
 	<extension point="xbmc.addon.repository" name="Boxxee repository">
 		<info compressed="false">https://raw.githubusercontent.com/boxxee/repo/master/addons.xml</info>
@@ -19,7 +18,7 @@
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
   </requires>
-  <extension point="xbmc.service" library="default.py" start="login"></extension>
+  <extension point="xbmc.service" library="default.py" start="login" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Auto Search for Subtitles on Play</summary>
     <description lang="en">Auto Search for Subtitles on Playback start if no subs are found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
@@ -32,5 +31,4 @@
     <email>schumi2004@gmail.com</email>
   </extension>
 </addon>
-
 </addons>
